@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="vanilla_(1)" />
         <module name="vanilla" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="vanilla" target="11" />
+      <module name="vanilla_(1)" target="15" />
     </bytecodeTargetLevel>
   </component>
 </project>
